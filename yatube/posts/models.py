@@ -71,6 +71,10 @@ class Comment(models.Model):
         verbose_name='Дата публикации'
     )
 
+    class Meta:
+        verbose_name_plural = 'Комментарии'
+        verbose_name = 'Комментарий'
+
 
 class Follow(models.Model):
     user = models.ForeignKey(
@@ -83,3 +87,7 @@ class Follow(models.Model):
         on_delete=models.CASCADE,
         related_name='following'
     )
+
+    class Meta:
+        verbose_name_plural = 'Подписки'
+        verbose_name = 'Подписка'
