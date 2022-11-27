@@ -8,7 +8,7 @@
   <div class="container py-5">
     <title>Последние обновления на сайте</title>
     {% include 'includes/switcher.html' %}
-    {% cache 20 index_page %}
+    {% cache 20 index_page page_obj %}
       {% for post in page_obj %}
         <article>
           <ul>
