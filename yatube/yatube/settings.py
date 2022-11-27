@@ -26,10 +26,8 @@ SECRET_KEY = '0oth$d_7^o8*wjhifnc$p2o@7100-9j+*ithdoyv6*===6!g!1'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'localhost',
-    '127.0.0.1',
-    '[::1]',
-    'testserver',
+    'www.vlorlov.pythonanywhere.com',
+    'vlorlov.pythonanywhere.com',
 ]
 
 LOGIN_URL = 'users:login'
