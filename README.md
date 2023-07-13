@@ -8,7 +8,7 @@
 <h2>Установка:</h2>
 
 <ul>
-<li><p>Скопируйте репозиторий в свою папку: git@github.com:DayKotya/hw05_final.git</p></li>
+<li><p>Скопируйте репозиторий в свою папку: git clone git@github.com:DayKotya/hw05_final.git</p></li>
 
 <li><p>Установите виртуальное окружение: python -m venv venv</p></li>
 
