@@ -14,7 +14,7 @@ git clone git@github.com:DayKotya/hw05_final.git
 ```
 
 ```
-cd api_final_yatube
+cd hw05_final
 ```
 
 2) Cоздайте и активируйте виртуальное окружение:
