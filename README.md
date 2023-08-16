@@ -7,19 +7,47 @@
 
 <h2>Установка:</h2>
 
-<ul>
-<li><p>Скопируйте репозиторий в свою папку: git clone git@github.com:DayKotya/hw05_final.git</p></li>
+1) Клонируйте репозиторий и перейдите в папку проекта:
 
-<li><p>Установите виртуальное окружение: python -m venv venv</p></li>
+```
+git clone git@github.com:DayKotya/hw05_final.git
+```
 
-<li><p>Активируйте виртуальное окружение: source venv/Scripts/activate</p></li>
+```
+cd api_final_yatube
+```
 
-<li><p>Установите зависимости из requirements.txt: pip install -r requirements.txt</p></li>
+2) Cоздайте и активируйте виртуальное окружение:
 
-<li><p>Выполните миграции: python manage.py migrate</p></li>
-</li>
-<li><p>Запустите сервер: python manage.py runserver</p></li>
-</ul>
+```
+python3 -m venv env
+```
+
+```
+source env/bin/activate
+```
+
+3) Установите зависимости из файла requirements.txt:
+
+```
+python3 -m pip install --upgrade pip
+```
+
+```
+pip install -r requirements.txt
+```
+
+4) Выполните миграции:
+
+```
+python3 manage.py migrate
+```
+
+5) Запустите проект:
+
+```
+python3 manage.py runserver
+```
 
 <h2>Использованные технологии:</h2>
 
